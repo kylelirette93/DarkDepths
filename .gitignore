@@ -1,0 +1,41 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# MonoGame content pipeline output
+Content/bin/
+Content/obj/
+
+# Rider
+.idea/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+
+# Auto-generated files
+*.cache
+*.pdb
+*.dll
+*.exe
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
