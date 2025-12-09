@@ -16,7 +16,7 @@ namespace DarkDepths.Managers
         {
             if (textures.Count == 0)
             {
-                textures["player"] = content.Load<Texture2D>("player");
+                textures["fruitfly"] = content.Load<Texture2D>("Fruitfly_Idle");
             }
         }
 

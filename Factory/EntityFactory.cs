@@ -20,7 +20,7 @@ namespace DarkDepths.Factory
         public void CreatePlayer()
         {
             var player = new Player(_game1);
-            player.Texture = AssetManager.GetTexture("player");
+            player.Texture = AssetManager.GetTexture("fruitfly");
             player.Position = new Vector2(400, 400);
             _entities.Add(player);
         }

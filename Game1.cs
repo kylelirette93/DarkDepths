@@ -14,6 +14,7 @@ namespace DarkDepths
         private SpriteBatch _spriteBatch;
         private IRenderer _renderer; // Renderer service for easy drawing.
         private EntityFactory _gameObjectFactory; // Factory for easy entity creation.
+        private GameStateManager _gameStateManager;
 
         public Game1()
         {
@@ -28,7 +29,9 @@ namespace DarkDepths
             #region Initialize Services
             var inputManager = new InputManager();
             _renderer = new Renderer(GraphicsDevice);
+            _gameStateManager = new GameStateManager();
             Services.AddService<IRenderer>(_renderer);
+            Services.AddService(_gameStateManager);
             Services.AddService<IInput>(inputManager);
             #endregion
             base.Initialize();
